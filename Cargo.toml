@@ -1,0 +1,14 @@
+[package]
+name = "bounding-space"
+version = "0.1.0"
+edition = "2021"
+authors = ["Rostyslav Bohomaz <rostyslav.db@gmail.com>"]
+license = "MIT"
+description = "N-dimensional bounding space."
+
+[dependencies]
+nalgebra = { version = "0.32.1", default-features = false }
+
+[dev-dependencies]
+approx = { version = "0.5.1", default-features = false }
+nalgebra = { version = "0.32.1", default-features = false, features = ["std"] }
